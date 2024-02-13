@@ -113,8 +113,6 @@ while True:
                 if k.colliderect(a_rect):
                     print(1)
 
-
-
     for event in pygame.event.get():
         if event.type==QUIT:
             pygame.quit()
