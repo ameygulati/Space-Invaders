@@ -60,7 +60,7 @@ move_r = False
 move_l = False
 for j in range(0,5,1):
     for i in range(0,10,1):
-        image_var=pygame.image.load("C:\\Users\\Amey\\Downloads\\Space Invaders\\Space-Invaders\\enemy_1.png")
+        image_var=pygame.image.load("C:\\Users\\Amey\\Downloads\\Pygames\\Space-Invaders\\enemy_1.png")
         image_var=pygame.transform.scale(image_var,(20,20))
         ltemp.append(Alien(x,y,image_var,5,5,True))
         x+=35
@@ -68,10 +68,10 @@ for j in range(0,5,1):
     x=1
     l.append(ltemp)
 
-bul = pygame.image.load("C:\\Users\\Amey\\Downloads\\Space Invaders\\Space-Invaders\\bullet.png")
+bul = pygame.image.load("C:\\Users\\Amey\\Downloads\\Pygames\\Space-Invaders\\bullet.png")
 bul=pygame.transform.scale(bul, (10,10))
 
-main = pygame.image.load("C:\\Users\\Amey\\Downloads\\Space Invaders\\Space-Invaders\\ship.png")
+main = pygame.image.load("C:\\Users\\Amey\\Downloads\\Pygames\\Space-Invaders\\ship.png")
 main=pygame.transform.scale(main,(50,50))
 x=250
 ship=Player_ship(x,500,main,50,50)
